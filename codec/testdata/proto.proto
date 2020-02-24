@@ -1,7 +1,7 @@
 syntax = "proto3";
 package cosmos_sdk.codec.v1;
 
-option go_package = "github.com/cosmos/cosmos-sdk/codec/testdata";
+option go_package = "github.com/serjplus/cosmos-sdk/codec/testdata";
 
 message Dog {
   string size = 1;

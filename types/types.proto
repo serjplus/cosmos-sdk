@@ -3,7 +3,7 @@ package cosmos_sdk.v1;
 
 import "third_party/proto/gogoproto/gogo.proto";
 
-option go_package = "github.com/cosmos/cosmos-sdk/types";
+option go_package = "github.com/serjplus/cosmos-sdk/types";
 option (gogoproto.goproto_stringer_all) = false;
 option (gogoproto.stringer_all) = false;
 
