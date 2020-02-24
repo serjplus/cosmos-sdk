@@ -204,12 +204,12 @@ format: tools
 DEVDOC_SAVE = docker commit `docker ps -a -n 1 -q` devdoc:local
 
 devdoc-init:
-	docker run -it -v "$(CURDIR):/go/src/github.com/cosmos/cosmos-sdk" -w "/go/src/github.com/cosmos/cosmos-sdk" tendermint/devdoc echo
+	docker run -it -v "$(CURDIR):/go/src/github.com/serjplus/cosmos-sdk" -w "/go/src/github.com/serjplus/cosmos-sdk" tendermint/devdoc echo
 	# TODO make this safer
 	$(call DEVDOC_SAVE)
 
 devdoc:
-	docker run -it -v "$(CURDIR):/go/src/github.com/cosmos/cosmos-sdk" -w "/go/src/github.com/cosmos/cosmos-sdk" devdoc:local bash
+	docker run -it -v "$(CURDIR):/go/src/github.com/serjplus/cosmos-sdk" -w "/go/src/github.com/serjplus/cosmos-sdk" devdoc:local bash
 
 devdoc-save:
 	# TODO make this safer
