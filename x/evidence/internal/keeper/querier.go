@@ -3,12 +3,12 @@ package keeper
 import (
 	"encoding/hex"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
-	"github.com/cosmos/cosmos-sdk/x/evidence/internal/types"
+	"github.com/serjplus/cosmos-sdk/client"
+	"github.com/serjplus/cosmos-sdk/codec"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	sdkerrors "github.com/serjplus/cosmos-sdk/types/errors"
+	"github.com/serjplus/cosmos-sdk/x/evidence/exported"
+	"github.com/serjplus/cosmos-sdk/x/evidence/internal/types"
 
 	abci "github.com/tendermint/tendermint/abci/types"
 )

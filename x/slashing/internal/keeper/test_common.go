@@ -16,15 +16,15 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/bank"
-	"github.com/cosmos/cosmos-sdk/x/params"
-	"github.com/cosmos/cosmos-sdk/x/slashing/internal/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/supply"
+	"github.com/serjplus/cosmos-sdk/codec"
+	"github.com/serjplus/cosmos-sdk/store"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/x/auth"
+	"github.com/serjplus/cosmos-sdk/x/bank"
+	"github.com/serjplus/cosmos-sdk/x/params"
+	"github.com/serjplus/cosmos-sdk/x/slashing/internal/types"
+	"github.com/serjplus/cosmos-sdk/x/staking"
+	"github.com/serjplus/cosmos-sdk/x/supply"
 )
 
 // TODO remove dependencies on staking (should only refer to validator set type from sdk)

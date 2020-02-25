@@ -10,14 +10,14 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/mint/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/mint/client/rest"
-	"github.com/cosmos/cosmos-sdk/x/mint/simulation"
-	sim "github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/serjplus/cosmos-sdk/client/context"
+	"github.com/serjplus/cosmos-sdk/codec"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/types/module"
+	"github.com/serjplus/cosmos-sdk/x/mint/client/cli"
+	"github.com/serjplus/cosmos-sdk/x/mint/client/rest"
+	"github.com/serjplus/cosmos-sdk/x/mint/simulation"
+	sim "github.com/serjplus/cosmos-sdk/x/simulation"
 )
 
 var (

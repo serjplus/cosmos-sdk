@@ -5,11 +5,11 @@ package simulation
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/serjplus/cosmos-sdk/codec"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/supply/internal/types"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/types/module"
+	"github.com/serjplus/cosmos-sdk/x/supply/internal/types"
 )
 
 // RandomizedGenState generates a random GenesisState for supply

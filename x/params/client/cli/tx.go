@@ -7,15 +7,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	paramscutils "github.com/cosmos/cosmos-sdk/x/params/client/utils"
-	"github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/serjplus/cosmos-sdk/client/context"
+	"github.com/serjplus/cosmos-sdk/codec"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/version"
+	"github.com/serjplus/cosmos-sdk/x/auth"
+	authclient "github.com/serjplus/cosmos-sdk/x/auth/client"
+	govtypes "github.com/serjplus/cosmos-sdk/x/gov/types"
+	paramscutils "github.com/serjplus/cosmos-sdk/x/params/client/utils"
+	"github.com/serjplus/cosmos-sdk/x/params/types"
 )
 
 // GetCmdSubmitProposal implements a command handler for submitting a parameter

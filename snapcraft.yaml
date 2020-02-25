@@ -37,7 +37,7 @@ parts:
         export GOPATH=`pwd`/go
         export GOBIN=$GOPATH/bin
         export PATH=$GOBIN:$PATH
-        cd $GOPATH/src/github.com/cosmos/cosmos-sdk
+        cd $GOPATH/src/github.com/serjplus/cosmos-sdk
         make go-mod-cache
         make tools
         make install

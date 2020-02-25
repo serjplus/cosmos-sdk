@@ -12,9 +12,9 @@ import (
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	keep "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	keep "github.com/serjplus/cosmos-sdk/x/staking/keeper"
+	"github.com/serjplus/cosmos-sdk/x/staking/types"
 )
 
 func TestValidatorByPowerIndex(t *testing.T) {

@@ -5,14 +5,14 @@ import (
 
 	"github.com/tendermint/tendermint/crypto"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/internal/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/internal/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/serjplus/cosmos-sdk/baseapp"
+	"github.com/serjplus/cosmos-sdk/codec"
+	"github.com/serjplus/cosmos-sdk/simapp/helpers"
+	simappparams "github.com/serjplus/cosmos-sdk/simapp/params"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/x/bank/internal/keeper"
+	"github.com/serjplus/cosmos-sdk/x/bank/internal/types"
+	"github.com/serjplus/cosmos-sdk/x/simulation"
 )
 
 // Simulation operation weights constants

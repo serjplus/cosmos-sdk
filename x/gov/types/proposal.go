@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	sdkerrors "github.com/serjplus/cosmos-sdk/types/errors"
 )
 
 // DefaultStartingProposalID is 1

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/serjplus/cosmos-sdk/x/simulation"
+	"github.com/serjplus/cosmos-sdk/x/staking/types"
 )
 
 const (

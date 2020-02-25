@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/serjplus/cosmos-sdk/x/auth/types"
+	"github.com/serjplus/cosmos-sdk/x/simulation"
 )
 
 const (

@@ -5,11 +5,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/cosmos/cosmos-sdk/x/bank/internal/types"
+	"github.com/serjplus/cosmos-sdk/client/context"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/types/rest"
+	authclient "github.com/serjplus/cosmos-sdk/x/auth/client"
+	"github.com/serjplus/cosmos-sdk/x/bank/internal/types"
 )
 
 // SendReq defines the properties of a send request's body.

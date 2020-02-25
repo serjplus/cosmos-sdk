@@ -15,17 +15,17 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/crypto"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	authexported "github.com/cosmos/cosmos-sdk/x/auth/exported"
-	"github.com/cosmos/cosmos-sdk/x/bank"
-	bankexported "github.com/cosmos/cosmos-sdk/x/bank/exported"
-	keep "github.com/cosmos/cosmos-sdk/x/gov/keeper"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/mock"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/supply"
-	supplyexported "github.com/cosmos/cosmos-sdk/x/supply/exported"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	sdkerrors "github.com/serjplus/cosmos-sdk/types/errors"
+	authexported "github.com/serjplus/cosmos-sdk/x/auth/exported"
+	"github.com/serjplus/cosmos-sdk/x/bank"
+	bankexported "github.com/serjplus/cosmos-sdk/x/bank/exported"
+	keep "github.com/serjplus/cosmos-sdk/x/gov/keeper"
+	"github.com/serjplus/cosmos-sdk/x/gov/types"
+	"github.com/serjplus/cosmos-sdk/x/mock"
+	"github.com/serjplus/cosmos-sdk/x/staking"
+	"github.com/serjplus/cosmos-sdk/x/supply"
+	supplyexported "github.com/serjplus/cosmos-sdk/x/supply/exported"
 )
 
 var (

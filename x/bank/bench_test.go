@@ -6,12 +6,12 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	authexported "github.com/cosmos/cosmos-sdk/x/auth/exported"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/supply"
+	"github.com/serjplus/cosmos-sdk/simapp"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/x/auth"
+	authexported "github.com/serjplus/cosmos-sdk/x/auth/exported"
+	"github.com/serjplus/cosmos-sdk/x/staking"
+	"github.com/serjplus/cosmos-sdk/x/supply"
 )
 
 var moduleAccAddr = supply.NewModuleAddress(staking.BondedPoolName)

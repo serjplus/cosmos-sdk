@@ -3,7 +3,7 @@ package bank
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/serjplus/cosmos-sdk/types"
 )
 
 // InitGenesis initializes the bank module's state from a given genesis state.

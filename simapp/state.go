@@ -11,11 +11,11 @@ import (
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	simapparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/serjplus/cosmos-sdk/codec"
+	simapparams "github.com/serjplus/cosmos-sdk/simapp/params"
+	"github.com/serjplus/cosmos-sdk/types/module"
+	"github.com/serjplus/cosmos-sdk/x/auth"
+	"github.com/serjplus/cosmos-sdk/x/simulation"
 )
 
 // AppStateFn returns the initial application state using a genesis or the simulation parameters.

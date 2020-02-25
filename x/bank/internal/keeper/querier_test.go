@@ -5,10 +5,10 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/internal/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/internal/types"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	authtypes "github.com/serjplus/cosmos-sdk/x/auth/types"
+	"github.com/serjplus/cosmos-sdk/x/bank/internal/keeper"
+	"github.com/serjplus/cosmos-sdk/x/bank/internal/types"
 )
 
 func (suite *IntegrationTestSuite) TestQuerier_QueryBalance() {

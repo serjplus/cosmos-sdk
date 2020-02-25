@@ -3,11 +3,11 @@ package v039_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/legacy/v0_34"
-	v038auth "github.com/cosmos/cosmos-sdk/x/auth/legacy/v0_38"
-	v039 "github.com/cosmos/cosmos-sdk/x/auth/legacy/v0_39"
+	"github.com/serjplus/cosmos-sdk/codec"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/x/auth/legacy/v0_34"
+	v038auth "github.com/serjplus/cosmos-sdk/x/auth/legacy/v0_38"
+	v039 "github.com/serjplus/cosmos-sdk/x/auth/legacy/v0_39"
 
 	"github.com/stretchr/testify/require"
 )

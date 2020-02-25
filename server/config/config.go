@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/store"
+	sdk "github.com/serjplus/cosmos-sdk/types"
 )
 
 const (

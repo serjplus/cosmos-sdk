@@ -5,9 +5,9 @@ package simulation
 import (
 	"math/rand"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/bank/internal/types"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/types/module"
+	"github.com/serjplus/cosmos-sdk/x/bank/internal/types"
 )
 
 // Simulation parameter constants

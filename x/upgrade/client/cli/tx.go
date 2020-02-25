@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"time"
 
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
+	authclient "github.com/serjplus/cosmos-sdk/x/auth/client"
+	"github.com/serjplus/cosmos-sdk/x/gov/client/cli"
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/gov"
-	upgrade "github.com/cosmos/cosmos-sdk/x/upgrade/internal/types"
+	"github.com/serjplus/cosmos-sdk/client/context"
+	"github.com/serjplus/cosmos-sdk/codec"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/x/auth"
+	"github.com/serjplus/cosmos-sdk/x/gov"
+	upgrade "github.com/serjplus/cosmos-sdk/x/upgrade/internal/types"
 )
 
 const (

@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing/internal/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/x/slashing/internal/types"
+	"github.com/serjplus/cosmos-sdk/x/staking"
 )
 
 // Test a new validator entering the validator set

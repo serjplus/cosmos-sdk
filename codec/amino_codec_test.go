@@ -3,8 +3,8 @@ package codec_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/testdata"
+	"github.com/serjplus/cosmos-sdk/codec"
+	"github.com/serjplus/cosmos-sdk/codec/testdata"
 	"github.com/stretchr/testify/require"
 	amino "github.com/tendermint/go-amino"
 )

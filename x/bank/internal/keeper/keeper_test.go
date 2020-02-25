@@ -9,11 +9,11 @@ import (
 	tmkv "github.com/tendermint/tendermint/libs/kv"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting"
-	"github.com/cosmos/cosmos-sdk/x/bank/internal/types"
+	"github.com/serjplus/cosmos-sdk/simapp"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/x/auth"
+	"github.com/serjplus/cosmos-sdk/x/auth/vesting"
+	"github.com/serjplus/cosmos-sdk/x/bank/internal/types"
 )
 
 const (
