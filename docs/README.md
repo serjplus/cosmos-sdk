@@ -8,7 +8,7 @@
 ## Resources
 
 - [Specifications](./spec/README.md): Specifications of modules and other parts of the Cosmos SDK. 
-- [SDK API Reference](https://godoc.org/github.com/cosmos/cosmos-sdk): Godocs of the Cosmos SDK.
+- [SDK API Reference](https://godoc.org/github.com/serjplus/cosmos-sdk): Godocs of the Cosmos SDK.
 - [REST API spec](https://cosmos.network/rpc/): List of endpoints to interact with a `gaia` full-node through REST.
 
 ## Creating a new SDK project

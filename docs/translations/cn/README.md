@@ -9,7 +9,7 @@
 ## 开发资源
 
 - [规范](./spec/README.md): Cosmos SDK 的模块及其他规范。 
-- [SDK API 参考](https://godoc.org/github.com/cosmos/cosmos-sdk): Cosmos SDK Godocs 文档 。
+- [SDK API 参考](https://godoc.org/github.com/serjplus/cosmos-sdk): Cosmos SDK Godocs 文档 。
 - [REST API 规范](https://cosmos.network/rpc/): 通过 REST 与 `gaia` 全节点交互的 API 列表。
 
 ## 创建新的 SDK 项目
