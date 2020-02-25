@@ -1,7 +1,6 @@
 module github.com/serjplus/cosmos-sdk
 
 require (
-	github.com/serjplus/cosmos-sdk v0.37.6
 	github.com/99designs/keyring v1.1.3
 	github.com/bartekn/go-bip39 v0.0.0-20171116152956-a05967ea095d
 	github.com/bgentry/speakeasy v0.1.0
