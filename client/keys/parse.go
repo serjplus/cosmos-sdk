@@ -13,8 +13,8 @@ import (
 	"github.com/tendermint/tendermint/libs/bech32"
 	"github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/client/flags"
+	sdk "github.com/serjplus/cosmos-sdk/types"
 )
 
 var bech32Prefixes = []string{

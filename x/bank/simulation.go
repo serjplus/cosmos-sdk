@@ -6,12 +6,12 @@ import (
 
 	"github.com/tendermint/tendermint/crypto"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/internal/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/internal/types"
-	"github.com/cosmos/cosmos-sdk/x/mock"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/serjplus/cosmos-sdk/baseapp"
+	sdk "github.com/serjplus/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/x/bank/internal/keeper"
+	"github.com/serjplus/cosmos-sdk/x/bank/internal/types"
+	"github.com/serjplus/cosmos-sdk/x/mock"
+	"github.com/serjplus/cosmos-sdk/x/simulation"
 )
 
 // SendTx tests and runs a single msg send where both

@@ -9,11 +9,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/cosmos/cosmos-sdk/crypto"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/keyerror"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/mintkey"
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/serjplus/cosmos-sdk/crypto"
+	"github.com/serjplus/cosmos-sdk/crypto/keys/hd"
+	"github.com/serjplus/cosmos-sdk/crypto/keys/keyerror"
+	"github.com/serjplus/cosmos-sdk/crypto/keys/mintkey"
+	"github.com/serjplus/cosmos-sdk/types"
 
 	bip39 "github.com/cosmos/go-bip39"
 

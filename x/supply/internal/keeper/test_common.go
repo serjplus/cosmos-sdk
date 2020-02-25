@@ -11,14 +11,14 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/bank"
-	"github.com/cosmos/cosmos-sdk/x/params"
-	"github.com/cosmos/cosmos-sdk/x/supply/internal/types"
+	"github.com/serjplus/cosmos-sdk/codec"
+	"github.com/serjplus/cosmos-sdk/store"
+	"github.com/serjplus/cosmos-sdk/x/auth"
+	"github.com/serjplus/cosmos-sdk/x/bank"
+	"github.com/serjplus/cosmos-sdk/x/params"
+	"github.com/serjplus/cosmos-sdk/x/supply/internal/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/serjplus/cosmos-sdk/types"
 )
 
 // nolint: deadcode unused

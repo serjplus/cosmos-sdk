@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/serjplus/cosmos-sdk/types"
 )
 
 type CodeType = sdk.CodeType

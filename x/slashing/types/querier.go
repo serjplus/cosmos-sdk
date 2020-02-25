@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/serjplus/cosmos-sdk/types"
 )
 
 // QuerySigningInfoParams defines the params for the following queries:

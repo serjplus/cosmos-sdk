@@ -8,8 +8,8 @@ import (
 	"github.com/tendermint/tendermint/crypto/merkle"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/store/errors"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/serjplus/cosmos-sdk/store/errors"
+	"github.com/serjplus/cosmos-sdk/store/types"
 )
 
 func TestStoreType(t *testing.T) {
